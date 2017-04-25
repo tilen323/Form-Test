@@ -1,0 +1,75 @@
+html {
+    
+    background: url(/img/landscape.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background: none;
+}
+
+.container-fluid {
+    margin-top: 4%;
+}
+
+.forma-test {
+    background-color: white;
+    padding: 15px 30px 50px 30px;;
+}
+
+#close-btn {
+    width: 15px;
+    float: right;
+    margin-top: -35px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.forma-test-content {
+    margin-top: 30px;
+}
+
+.content-text {
+    color: #4f4f4f;
+}
+
+.bg-grey {
+    background-color: #e8e8e8;
+    padding: 13px;
+    margin-bottom: 27px;
+}
+
+.bg-grey:focus {
+    border-color: grey;
+}
+
+.form-group input {
+    width: 70%;
+}
+
+#content {
+    resize: none;
+}
+
+#submit-btn {
+    background-color: #4481aa;
+    border-color: #4481aa;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 25px;;
+}
+
+#submit-btn:hover {
+    background-color: #245576;
+}
+
+#error {
+    margin-top: 25px;
+}
+
+.hidden {
+    display: none;
+}
